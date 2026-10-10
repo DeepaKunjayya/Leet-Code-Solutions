@@ -41,3 +41,7 @@ Output:
 | 2  | bob@example.com  |
 +----+------------------+
 Explanation: john@example.com is repeated two times. We keep the row with the smallest Id = 1.
+
+Solution:   MS SQL Server
+
+delete P1 from Person P1 join Person P2 on P1.email=P2.email where P1.id > P2.id;// It will remove the second repeated email entry instead of the first occurence
