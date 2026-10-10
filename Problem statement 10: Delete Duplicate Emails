@@ -1,13 +1,6 @@
+Problem statement: Delete Duplicate Emails
 
-196. Delete Duplicate Emails
-Easy
-Topics
-premium lock icon
-Companies
-SQL Schema
-Pandas Schema
 Table: Person
-
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -28,7 +21,6 @@ After running your script, the answer shown is the Person table. The driver will
 
 The result format is in the following example.
 
- 
 
 Example 1:
 
