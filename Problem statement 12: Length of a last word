@@ -29,5 +29,32 @@ There will be at least one word in s.
 
 
 
-Solution:
+Solution:  (in Java)
 
+class Solution {
+    public int lengthOfLastWord(String s) {
+
+
+        int i=s.length()-1;
+
+        System.out.println(i);
+        int length=0;
+
+   for(;i>=0 && s.charAt(i)==' ';){
+                   i--;
+         }
+
+        while(i>=0 && s.charAt(i)!=' '){
+            i--;
+            length++;
+        }
+      
+
+     
+
+        System.out.println(length);
+        return length;
+     
+        
+    }
+}
