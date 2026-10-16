@@ -39,7 +39,7 @@ class Solution {
         while(low<=high){
             int mid=low+(high-low)/2;
 
-            long sqrt= mid*mid;
+            long sqrt= (long ) mid*mid;// typecasting for bigger values
 
             if(sqrt==x){
                 return mid;
